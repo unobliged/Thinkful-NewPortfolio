@@ -1,0 +1,165 @@
+* {
+	margin:0;
+	padding:0;	
+}
+
+html, body {
+	height: 100%;
+	font-family: "Lucida Grande", "Arial", sans-serif;
+	font-size: 100%;
+}
+
+a {
+	text-decoration: underline;
+	color: #000;	
+}
+
+a:hover {
+	text-decoration: none;	
+}
+
+#top-nav a:hover {	
+	background-color: #F4A460;
+	border-radius: 5px;
+	box-shadow: inset 0px -1px 1px 0px #474633, inset 0px 1px 1px 0px #474633;
+}
+
+header {	
+	width: 70%;
+	margin: auto;
+	height: 150px;
+	min-width: 742px;
+	background-color: #D6D199;
+	border: 1px solid;
+	padding-top: 2px;
+	box-shadow: inset 0px -1px 1px 0px #474633, inset 0px 1px 1px 0px #474633;
+	word-wrap: break-word;
+	text-align: center;
+}
+
+header>a {
+	display: inline-block;
+	float: left;
+	width: 130px;
+	height: 148px;	
+}
+
+header img {	
+	height: 100%;
+	width: 100%;
+}
+
+#top-nav {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 18px;
+	min-width: 550px;
+}
+
+#top-nav h1 {
+	margin-top: 5px;
+	font-size: 2em;
+}
+
+#top-nav h3 {
+	margin: 5px 0;
+	font-size: 1.5em;
+}
+
+#top-nav ul {	
+	margin: 10px auto 0 auto;	
+	font-size: 1.2em;
+}
+
+#top-nav li {	
+	display: inline;
+	margin: 5px 15px 5px 10px;
+	padding: 5px;
+}
+
+#top-nav a {
+	padding: 2px;
+}
+
+#projects, #about {	
+	margin: 20px 10% 0 10%;
+	min-height: 100%;
+	height: auto;
+	text-align: center;
+}
+
+#projects ul {	
+	list-style: none;	
+	width: 90%;
+	margin: auto;	
+}
+
+#projects li {
+	float: left;		
+	margin: 3%;
+	width: 120px;
+	height: auto;
+}
+
+#projects a {	
+	padding: 2px;
+	display: block;
+}
+
+#projects img {
+	border: 1px solid;
+	width: 100%;
+	height: auto;
+}
+
+#expand {
+	border: none;
+	clear: both;
+}
+
+#expand img {
+	width: 50%;
+	height: auto;
+}
+
+#about {
+	text-align: left;
+}
+
+#about>div{
+	width: 80%;
+	margin: auto;
+	min-height: 100%;
+	height: auto;
+}
+
+#about>div>div {
+	margin-bottom: 30px;
+}
+
+#about span {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#schools {
+	text-align: center;
+}
+
+#about img {
+	vertical-align: top;
+	width: 120px;
+	height: auto;
+	margin: 0 10px;
+}
+
+#about a {
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}
+
