@@ -19,11 +19,11 @@ a:hover {
 	text-decoration: none;	
 }
 
-#top-nav a:hover {	
+nav a:hover {	
 	border-bottom: 1px solid #52A488;
 }
 
-#top-nav h1>a:hover {
+nav h1>a:hover {
 	border-bottom: none;
 }
 
@@ -36,26 +36,26 @@ header {
 	font-variant: small-caps;
 }
 
-#top-nav {
+nav {
 	margin-top: 25px;
 	min-width: 550px;
 }
 
-#top-nav h1 {
+nav h1 {
 	font-size: 4em;
 }
 
-#top-nav h3 {
+nav h3 {
 	margin: 5px 0;
 	font-size: 1.5em;
 }
 
-#top-nav ul {	
+nav ul {	
 	margin: 25px auto 0 auto;	
 	font-size: 1.2em;
 }
 
-#top-nav li {	
+nav li {	
 	display: inline;
 	margin: 5px;
 	padding: 5px;
@@ -75,18 +75,19 @@ header {
 
 #projects ul {	
 	list-style: none;	
-	width: 80%;
+	width: 80%;	
 	margin: auto;
 	padding-top: 40px;
 }
 
 #projects li {
-	float: left;
+	display: inline-block;
 	margin: 10px;
 }
 
 #projects img {
 	border: 1px solid;
+	cursor: pointer;
 }
 
 #projects a {	
@@ -96,6 +97,19 @@ header {
 
 #projects a:hover {
 	text-decoration: underline;
+}
+
+.desc {
+	width: 360px;
+	height: 270px;
+	margin-bottom: 8px;	
+	border: 1px solid;
+	text-align: justify;
+	background-color: #F6F6F6;
+}
+
+.desc p {
+	padding: 10px 20px;
 }
 
 #clear {
@@ -135,6 +149,8 @@ header {
 #about img {
 	vertical-align: top;	
 	margin: 0 10px;
+	max-width: 200px;
+	height: auto;
 }
 
 #about a {

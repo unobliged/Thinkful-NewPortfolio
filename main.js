@@ -12,22 +12,14 @@ $(document).ready(function() {
 		$('#projects').removeClass('hidden');		
 	});
 	
-	/*
-	$('#projects img').hover(function(e){
-		var lg_src = $(this).attr('src').replace('tn_','');
-		$('#expand').toggleClass('hidden');
-		$('#expand img').attr('src', lg_src);
+	$('#projects img').click(function(){
+		$(this).toggleClass('hidden');
+		$(this).siblings('div').toggleClass('hidden');
 	});
 	
-	
-	$(window).resize(function(){
-		var doc_height = $(document).height();
-		var win_height = $(window).height();
-		
-		if(doc_height > win_height){				
-			$('#projects').css('height', doc_height);
-		}
+	$('.desc').click(function(){
+		$(this).toggleClass('hidden');
+		$(this).siblings('img').toggleClass('hidden');
 	});
-	*/
 	
 });

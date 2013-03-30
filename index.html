@@ -11,7 +11,7 @@
 	
 	<body>					
 		<header>			
-			<nav id="top-nav">
+			<nav>
 				<h1><a href="index.html">Brian Ortega</a></h1>
 				<ul>
 					<li><a id="click-a">About</a></li>
@@ -27,25 +27,54 @@
 		<section id="projects">
 			<ul>
 				<li>
-					<img src="tn_edict2.png" />
-					<a href="http://edict2-parser.herokuapp.com/" target="_blank">EDICT2 Parser</a>
-				</li>
-				<li>
-					<img src="tn_mobile.png" />
-					<a href="http://unobliged.github.com/Side_Project-MobileLayout/#" target="_blank">Mobile Layout</a>
+					<img src="tn_sliding.png" title="Click for project description" />
+					<div class="hidden desc" >
+						<p>This was my first project using an API (Imgur). Since the API couldn't return an entire gallery, I also used YQL to scrape a gallery's hrefs and randomly pick one for the API call. The sliding puzzle uses HTML5 canvas and accepts rectangular images. Tiles are randomly shuffled and checked to ensure the puzzle is solvable.					
+						</p>
+					</div>
+					<a href="http://unobliged.github.com/Thinkful-HackProject/" target="_blank">R/aww Sliding Puzzle Game</a>
 				</li>	
 				<li>
-					<img src="tn_hotcold.png" />
+					<img src="tn_hotcold.png" title="Click for project description" />
+					<div class="hidden desc">
+						<p>This was one of my earlier projects where the emphasis was game design. Guessing a number between 1-100 can be frustrating, so I iterated and did repeated user tests to find the right balance between helping the user and making the game difficult enough to still be engaging. Try it and tell me what you think!	
+						</p>
+					</div>
 					<a href="http://unobliged.github.com/Thinkful-HotOrCold-hw/" target="_blank">Hot or Cold Game</a>
 				</li>
 				<li>
-					<img src="tn_shopping.png" />
+					<img src="tn_shopping.png" title="Click for project description" />
+					<div class="hidden desc">
+						<p>This project forced me to rely heavily on user testing (I rarely use lists to remember things). My expectations for each element interaction were quite different from my users'; little things like having the text remain unedited on an item after clicking out matter a lot! I also learned that jQuery effects don't always cleanly map to mobile.
+						</p>
+					</div>
 					<a href="http://unobliged.github.com/Thinkful-ShoppingListApp-hw/" target="_blank">Shopping List App</a>
 				</li>
 				<li>
-					<img src="tn_sliding.png" />
-					<a href="http://unobliged.github.com/Thinkful-HackProject/" target="_blank">R/aww Sliding Puzzle Game</a>
-				</li>						
+					<img src="tn_stocksim.png" title="Click for project description" />
+					<div class="hidden desc">
+						<p>This was a javascript exercise I received after an interview; it was actually kind of fun to build and I might make a full-featured minigame out of it later. I learned a cool one-liner to do pos/neg randomness in js: <br> Math.random() < 0.5 ? -1 : 1
+						</p>
+					</div>
+					<a href="http://unobliged.github.com/Side_Project-StockSimulation/" target="_blank">Simplified Trading Simulation</a>
+				</li>
+				
+				<li>
+					<img src="tn_edict2.png" title="Click for project description" />
+					<div class="hidden desc">
+						<p>This was an earlier rails project I did as an exercise in parsing and searching foreign language dictionaries. Most of my time was spent figuring out a good schema and doing query optimization (new relic was very helpful). This demo app only has 15k entries since that is the limit on Heroku free tier; sorry if your search turns up blank!
+						</p>
+					</div>
+					<a href="http://edict2-parser.herokuapp.com/" target="_blank">EDICT2 Parser</a>
+				</li>
+				<li>
+					<img src="tn_mobile.png" title="Click for project description" />
+					<div class="hidden desc">
+						<p>This was a side project I did for a friend of a friend who runs an image gallery. They needed a mobile layout for the main page and we opted for scaling pictures with a fixed 3x3 grid. I learned about media queries and the difficulties involved in making responsive designs. I also finally tried out bitbucket since their repo was there.
+						</p>
+					</div>
+					<a href="http://unobliged.github.com/Side_Project-MobileLayout/" target="_blank">Mobile Layout</a>
+				</li>
 			</ul>
 			
 			<div id="clear"></div>
@@ -55,7 +84,7 @@
 			<div>
 				<div>
 					<span>About Me</span>
-					<p>Although I did not pursue programming as a career earlier in life, I had always had an interest. I learned some compsci in high school, which really came in handy after I became an analyst (VB/VBA sadly). Before going to MIT for my MBA, I had started learning ruby to pursue my side project of making language learning software for Japanese and Chinese, which later became the focus of my Entrepreneurship Track studies and 100K entries. I am now focused on becoming the best developer I can and learning how developers work together as a team to take a product from idea to market. </p>
+					<p>Although I did not pursue programming as a career earlier in life, I had always had an interest. I learned some compsci in high school, which really came in handy after I became an analyst (for VB/VBA sadly). Before going to MIT for my MBA, I had started learning ruby to pursue my side project of making language learning software for Japanese and Chinese, which later became the focus of my Entrepreneurship Track studies and 100K entries. I am now focused on becoming the best developer I can and learning how developers work together as a team to take a product from idea to market. </p>
 				</div>
 				<div id="schools">
 					<a href="http://cstuy.org/" target="_blank">
